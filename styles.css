@@ -208,16 +208,8 @@ box-shadow: 0 0 35px wheat;
     margin-top: 50px;
 }
 @media screen and (max-width:800px) {
-    .habilidades .contenido-seccion .fila {
-        display: block;
-    }
-    .habilidades .contenido-seccion .fila .col {
-        width: 100%;
-        text-align: center;
-    }
-    .habilidades .contenido-seccion .fila .col .cont-barra{
-        justify-content: center;
-    }
+    
+    
     .perfil_personal .contenido-seccion .col {
         display: block;
     }
