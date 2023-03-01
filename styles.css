@@ -16,7 +16,7 @@ html {
     url("./Lenovo\ Yoga\ Slim\ 7\ Pro.webp");
     background-size: cover;
     background-position: center center;
-    color: #fff;
+    color: wheat;
     
     
 }
@@ -103,10 +103,10 @@ box-shadow: 0 0 35px wheat;
 .inicio .contenido-seccion .foto img {
     max-width: 200px;
     border-radius: 50%;
-    border: 5px solid wheat;
+    border: 5px solid black;
 }
 .perfil_personal {
-    background-color: aliceblue;
+    background-color: gray;
     padding: 30px 0 100px 0;
     text-align: center;
 }
@@ -121,11 +121,11 @@ box-shadow: 0 0 35px wheat;
     justify-content: space-between;
 }
 .perfil_personal .contenido-seccion .col i{
-    color: #c60c76;;
+    color: black;
     display: inline-block;
     width: 40px;
     height: 40px;
-    border: 2px solid #c60c76;
+    border: 2px solid black;
     line-height: 40px;
     border-radius: 50%;
 }
@@ -135,10 +135,11 @@ box-shadow: 0 0 35px wheat;
     margin: 8px 0;
 }
 .titulo_frase {
-    color: rgb(198, 12, 118);
+    color: black;
+    font-weight: bold;
 }
 .frase p{
-    color: gray;
+    color: black;
     font-style: oblique;
 }
 .datos {
@@ -157,7 +158,7 @@ box-shadow: 0 0 35px wheat;
 }
 
 .habilidades{
-    padding: 80px 0  100px 0 ;
+    padding: 60px 0  100px 0 ;
     text-align: center;
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
     url("./1602661194_548007_1602661775_noticia_normal.jpeg");
@@ -166,47 +167,24 @@ box-shadow: 0 0 35px wheat;
     background-position: center center;
     color: #fff;
 }
-.habilidades .contenido-seccion{
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 10px;
+.habilidades .cont-hab{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
 }
-.habilidades .contenido-seccion h3{
-    font-size: 28px;
+.iconohabilidades i{
+    color: wheat;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid wheat;
+    line-height: 40px;
+    border-radius: 50%;
 }
-.habilidades .contenido-seccion .fila{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
+.iconohabilidades {
+    padding: 20px;
 }
-.habilidades .contenido-seccion .fila .col {
-    width: 47%;
-    text-align: left;
-}
-.habilidades .contenido-seccion .fila .col .cont-barra {
-    display: flex;
-    align-items: center;
-}
-.habilidades .contenido-seccion .barra {
-    display: flex;
-    border: 1px solid #c60c76;
-    padding: 2px;
-    border-radius: 3px;
-    margin-right: 10px;
 
-}
-.habilidades .contenido-seccion .barra .f {
-    background-color: black;
-    width: 20px;
-    height: 30px;
-    margin-right: 2px;
-}
-.habilidades .contenido-seccion .barra .e {
-    background-color: #c60c76;
-    width: 20px;
-    height: 30px;
-    margin-right: 2px;
-}
 
 .contacto  {
     background-color: #383637;
